@@ -123,5 +123,5 @@ mod de;
 mod error;
 mod ser;
 
-pub use de::deserialize;
-pub use ser::serialize;
+pub use de::{deserialize, Deserializer};
+pub use ser::{serialize, Serializer};

@@ -6,7 +6,7 @@ mod enum_deserializer;
 mod hash_deserializer;
 mod variant_deserializer;
 
-use self::deserializer::Deserializer;
+pub use self::deserializer::Deserializer;
 
 use self::{
     array_deserializer::ArrayDeserializer, enum_deserializer::EnumDeserializer,

@@ -7,7 +7,7 @@ mod struct_serializer;
 mod struct_variant_serializer;
 mod tuple_variant_serializer;
 
-use self::serializer::Serializer;
+pub use self::serializer::Serializer;
 
 use self::{
     map_serializer::MapSerializer, seq_serializer::SeqSerializer,
